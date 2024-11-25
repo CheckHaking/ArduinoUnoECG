@@ -1,12 +1,12 @@
 import serial
 import time
 
-arduino_port = "COM6"
-baud_rate = 9600 #Esto tiene que ser el mismo que esta en arduino 
+arduino_port = "COM6" #Aqui se escribe el nombre del puerto serial donde tenemos conectado el arduino
+baud_rate = 9600 #Este valor tiene que ser el mismo que le cargamos a nuestro arduino 
 timeout = 1 #Tiempo de espera de la conexion
 
 #Archivo donde se guardaran los datos
-output_file = 'alexa5.txt'
+output_file = 'file.txt'
 
 try:
     #Conexion serial
