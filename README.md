@@ -65,6 +65,7 @@ Con el entorno virtual activado y las dependencias instaladas, puedes ejecutar e
 
 ```bash
 python nombre_del_archivo.py
+```
 
 ###NOTAS:
 
